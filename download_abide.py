@@ -1,5 +1,10 @@
 '''
 This script mainly refers to https://github.com/HennyJie/BrainGB/tree/master/examples/utils/get_abide
+
+Quickstart:
+- Install dependencies from `requirements.txt` (this folder).
+- Run the example command in `README.md` (“Data Preparation” → “ABIDE”).
+Last updated: 2026-02-02
 '''
 import argparse
 import os

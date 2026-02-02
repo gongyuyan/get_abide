@@ -1,3 +1,10 @@
+"""
+Quickstart:
+- Install dependencies from `requirements.txt` (this folder).
+- Run the example command in `README.md` (“Data Preparation” → “HCP State”).
+Last updated: 2026-02-02
+"""
+
 import pandas as pd
 import os
 import nibabel as nib

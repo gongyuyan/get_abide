@@ -1,3 +1,10 @@
+"""
+Quickstart:
+- Install dependencies from `requirements.txt` (this folder).
+- Run the example command in `README.md` (“Data Preparation” → “HCP Rest”).
+Last updated: 2026-02-02
+"""
+
 import argparse
 import os
 import boto3
