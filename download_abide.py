@@ -208,8 +208,9 @@ class Brain_Connectome_ABIDE_Download(InMemoryDataset):
                 pipeline=self.pipeline,
                 band_pass_filtering=True,
                 global_signal_regression=False,
-                derivatives=[f"rois_{atlas}", "func_preproc"],
+                derivatives=[f"rois_{atlas}"],
                 quality_checked=False,
+                n_subjects=10
             )
 
         # 2) Organize CPAC folder
